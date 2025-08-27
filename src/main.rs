@@ -4,7 +4,7 @@ fn main() {
     print!("Enter a number: ");
     let num1: f64 = read!();
 
-    print!("Enter a operator");
+    print!("Enter a operator: ");
     let op: char = read!();
 
     print!("Enter a number: ");

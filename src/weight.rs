@@ -24,6 +24,6 @@ pub fn run() {
         let pounds = kilograms * 2.20462;
         println!("Result: {:.5} lb", pounds);
     } else {
-        println!("Invalid choice!");
+        eprintln!("Invalid choice!");
     }
 }

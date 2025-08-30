@@ -24,6 +24,6 @@ pub fn run() {
         let fahrenheit = (celsius * 1.8) + 32.0;
         println!("Result: {:.5} °F", fahrenheit);
     } else {
-        println!("Invalid choice!");
+        eprintln!("Invalid choice!");
     }
 }
